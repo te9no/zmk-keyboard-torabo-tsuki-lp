@@ -19,11 +19,11 @@
 
         default {
             bindings = <
-&kp ESC       &kp N1     &kp N2    &kp N3    &kp N4       &kp N5                                                         &kp N6       &kp N7    &kp N8     &kp N9    &kp N0    &kp BSPC
-&lt 3 TAB     &kp Q      &kp W     &kp E     &kp R        &kp T                                                          &kp Y        &kp U     &kp I      &kp O     &kp P     &kp ENTER
-&kp CAPS      &kp A      &kp S     &kp D     &kp F        &kp G        &mkp LCLK                  &mkp RCLK              &kp H        &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT     &kp Z      &kp X     &kp C     &kp V        &kp B        &kp SPACE                  &kp RET                &kp N        &kp M     &kp COMMA  &kp DOT   &kp UP    &kp RSHFT
-&mt LCTL ESC  &kp LCTRL  &kp LGUI  &kp LALT  &lt 2 SPACE  &lt 1 SPACE  &mt LEFT_SHIFT LANGUAGE_1  &mt RSHIFT LANGUAGE_2  &lt 2 ENTER  &kp BSPC  &kp RALT   &kp LEFT  &kp DOWN  &kp RIGHT
+&kp ESC       &kp N1     &kp N2    &kp N3    &kp N4         &kp N5                                                         &kp N6       &kp N7    &kp N8     &kp N9    &kp N0    &kp BSPC
+&lt 3 TAB     &kp Q      &kp W     &kp E     &kp R          &kp T                                                          &kp Y        &kp U     &kp I      &kp O     &kp P     &kp ENTER
+&kp CAPS      &kp A      &kp S     &kp D     &kp F          &kp G        &mkp LCLK                  &kp EQUAL              &kp H        &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT     &kp Z      &kp X     &kp C     &kp V          &kp B        &mkp RCLK                  &kp MINUS              &kp N        &kp M     &kp COMMA  &kp DOT   &kp UP    &kp RSHFT
+&mt LCTL ESC  &kp LCTRL  &kp LGUI  &kp LALT  &lt 2 SP87ACE  &lt 1 SPACE  &mt LEFT_SHIFT LANGUAGE_1  &mt RSHIFT LANGUAGE_2  &lt 2 ENTER  &kp BSPC  &kp RALT   &kp LEFT  &kp DOWN  &kp RIGHT
             >;
         };
 
@@ -39,11 +39,11 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &kp LBKT  &kp RBKT &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans    &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans   &trans
             >;
         };
 
